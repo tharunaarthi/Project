@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #6a5acd, #ff77a1); /* Gradient background from blue to pink */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto; /* Center the container with some top margin */
+    padding: 30px;
+    background-color: #ffffff; /* White background for the container */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    transition: transform 0.3s; /* Animation for hover effect */
+}
+
+.container:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+h1 {
+    text-align: center;
+    color: #ff77a1; /* Pink color for the main heading */
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Text shadow for depth */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 15px;
+    color: #333; /* Darker color for labels */
+    font-weight: bold;
+}
+
+input,
+textarea {
+    padding: 12px;
+    border: none; /* Remove default border */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 16px;
+    margin-top: 5px;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1); /* Inner shadow effect */
+}
+
+input:focus,
+textarea:focus {
+    outline: none; /* Remove outline on focus */
+    box-shadow: 0 0 5px rgba(106, 90, 205, 0.8); /* Glow effect on focus (blue) */
+}
+
+button {
+    background-color: #6a5acd; /* Blue button color */
+    color: #fff;
+    padding: 12px;
+    border-radius: 8px; /* Rounded corners */
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #5a4cb1; /* Darker shade of blue on hover */
+}
+
+#result {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: rgba(255,255,255,0.9); /* Slightly transparent white background */
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+}
+
+h2 {
+    color: #6a5acd; /* Blue color for subheadings */
+    font-size: 28px; 
+}
+
+p {
+    color: #555; 
+}
+
+ul,
+ol {
+    color: #555; 
+}
